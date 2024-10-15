@@ -31,10 +31,31 @@
 .header-song{
     width: 100%;
     height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .select-song{
     width: 100%;
     height: 90%;
     overflow: auto;
+}
+
+/**bottoni**/
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 2px solid lightgrey;
+}
+
+.header-song .btn  {
+    margin-right: 10px;
+}
+
+.header-song .btn a {
+    color: lightgrey;
+    text-decoration: none;
 }
