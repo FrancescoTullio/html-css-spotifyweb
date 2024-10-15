@@ -1,0 +1,43 @@
+@media screen and (max-width: 425px) {
+    .nav{
+        width: 10%;
+    }
+
+    .song{
+        width: 90%;
+    }
+
+
+    .container-nav{
+        padding: 5px 15px;
+    }
+    .grate-logo,
+    .vanish {
+        display: none;
+    }
+
+    .fa-spotify{
+        display: inline-block;
+    }
+
+    .fa-house:hover,
+    .famagnifying-glass:hover,
+    .fa-bars:hover{
+        color: white;
+        width: 100%;
+    }
+
+    .nav{
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo,
+    main-nav{
+        width: 100%;
+    }
+
+    .main-nav ul{
+        padding-top: 5px;
+    }
+}

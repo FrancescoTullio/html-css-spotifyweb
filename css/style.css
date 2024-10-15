@@ -90,12 +90,16 @@ a {
     width: 60%;
 }
 
+.fa-spotify{
+    display: none;
+}
+
 .main-nav ul{
     padding-top: 15px;
 }
 
 .main-nav ul li{
-    padding: 5px;
+    padding: 5px 0;
 }
 
 .home:hover{

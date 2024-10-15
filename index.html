@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>bootyfy</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
     <link rel="stylesheet" href="./css/debug.css">
@@ -17,15 +19,23 @@
 <body>
     <!-- main -->
     <div class="main-part">
+
+        <!--nav-->
         <div class="nav">
             <div class="container-nav">
-                <div class="logo"><img src="./img/logo.svg" alt=""></div>
+                <div class="logo">
+                    <img class="grate-logo" src="./img/logo.svg" alt="">
+                    <i class="fa-brands fa-spotify"></i>
+                </div>
 
                 <div class="main-nav">
                     <ul>
-                        <li class="home"><a href=""><i class="fa-solid fa-house"></i> HOME</a></li>
-                        <li class="cerca"><a href=""><i class="fa-solid fa-magnifying-glass"></i> CERCA</a></li>
-                        <li class="lib"><a href=""><i class="fa-solid fa-bars"></i> LIBRERIA</a></li>
+                        <li class="home"><a href=""><i class="fa-solid fa-house"></i> <span
+                                    class="vanish">HOME</span></a></li>
+                        <li class="cerca"><a href=""><i class="fa-solid fa-magnifying-glass"></i><span class="vanish">
+                                    CERCA</span></a></li>
+                        <li class="lib"><a href=""><i class="fa-solid fa-bars"></i> <span
+                                    class="vanish">LIBRERIA</span></a></li>
                     </ul>
                 </div>
             </div>
@@ -34,7 +44,12 @@
 
         </div>
 
+        <!--/nav-->
 
+
+
+        
+        <!--song-->
         <div class="song">
             <div class="header-song">
 
@@ -58,7 +73,7 @@
 
         </div>
 
-
+        <!--/song-->
 
 
 
