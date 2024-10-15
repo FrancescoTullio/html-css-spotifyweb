@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,11 +6,11 @@
 }
 
 
-img{
+img {
     width: 100%;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
@@ -19,31 +19,34 @@ a {
     color: inherit;
     text-decoration: none;
 }
+
+
+
 /**contanier**/
 
-.main-part{
+.main-part {
     width: 100%;
     height: 90vh;
     display: flex;
 }
 
-.play-part{
+.play-part {
     width: 100%;
     height: 10vh;
 }
 
 
-.nav{
+.nav {
     width: 20%;
     height: 100%;
 }
 
-.song{
+.song {
     width: 80%;
     height: 100%;
 }
 
-.header-song{
+.header-song {
     width: 100%;
     height: 10%;
     display: flex;
@@ -51,14 +54,18 @@ a {
     align-items: center;
 }
 
-.select-song{
+.select-song {
     width: 100%;
     height: 90%;
     overflow: auto;
 }
 
+.container-list {
+    padding: 0 15px;
+}
 
-.container-nav{
+
+.container-nav {
     padding: 15px 15px;
 }
 
@@ -66,59 +73,118 @@ a {
 
 /**bottoni**/
 
-.btn{
+.btn {
     display: inline-block;
     padding: 10px 30px;
     border-radius: 20px;
     border: 2px solid lightgrey;
 }
 
-.header-song .btn  {
+.header-song .btn {
     margin-right: 10px;
 }
 
 
 
-.header-song .btn:hover{
+.header-song .btn:hover {
     color: white;
     border-color: white;
 }
 
 /**nav**/
 
-.logo{
+.logo {
     width: 60%;
 }
 
-.fa-spotify{
+.fa-spotify {
     display: none;
 }
 
-.main-nav ul{
+.main-nav ul {
     padding-top: 15px;
 }
 
-.main-nav ul li{
+.main-nav ul li {
     padding: 5px 0;
 }
 
-.home:hover{
+.home:hover {
     color: white;
-    .fa-house{
+
+    .fa-house {
         color: white;
     }
 }
 
-.cerca:hover{
+.cerca:hover {
     color: white;
-    .fa-magnifying-glass{
+
+    .fa-magnifying-glass {
         color: white;
     }
 }
 
-.lib:hover{
+.lib:hover {
     color: white;
-    .fa-bars{
+
+    .fa-bars {
         color: white;
     }
+}
+
+
+/**playlist**/
+
+h5 {
+    color: white;
+    padding: 10px 0;
+}
+
+.plus {
+    display: inline-block;
+    background-color: lightgrey;
+    color: black;
+    padding: 5px 10px;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.playlist:hover span {
+    color: white;
+}
+
+.container-list ul {
+    padding: 10px 0;
+}
+
+.container-list ul li {
+    padding: 3px 0;
+}
+
+.container-list ul li:hover {
+    color: white;
+}
+
+.row {
+    display: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+hr{
+    border: 1px solid white;
+    width: 100%;
+
+}
+
+.nav-footer{
+    padding: 10px 0;
+}
+
+.fa-user{
+    padding: 3px 3px;
+    background-color: lightgray;
+    border-radius: 50%;
+    color: white;
 }
