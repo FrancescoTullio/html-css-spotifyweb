@@ -1,4 +1,62 @@
+@media screen and (max-width: 768px) {
+
+    /**song**/
+
+    .top-select ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .grid-song{
+        flex-wrap: wrap;
+    }
+
+    
+    
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+    /**song**/
+
+
+    .grid-song{
+
+        gap:10px;
+    }
+
+    .card-song{
+        width: calc((100% - 10px) / 2) ;
+    }
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 425px) {
+
+    /**nav**/
+
     .nav{
         width: 10%;
     }
@@ -44,5 +102,13 @@
     .row{
         flex-direction: column;
         justify-content: space-between;
+    }
+
+
+    /**song**/
+
+    .top-select ul li{
+        width: calc((100% - 30px) / 4);
+        font-size: 10px;
     }
 }

@@ -33,17 +33,20 @@ a {
 .play-part {
     width: 100%;
     height: 10vh;
+    background-color: #282828;
 }
 
 
 .nav {
     width: 20%;
     height: 100%;
+    background-color: black;
 }
 
 .song {
     width: 80%;
     height: 100%;
+    background-color: #151922;
 }
 
 .header-song {
@@ -52,12 +55,14 @@ a {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    background-color: #080b12;
 }
 
 .select-song {
     width: 100%;
     height: 90%;
     overflow: auto;
+    background-color: #151922;
 }
 
 .container-list {
@@ -198,4 +203,76 @@ hr{
 .container-list ul{
     overflow: auto;
     height: 100%;
+}
+
+/**song**/
+
+.top-select ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 13px;
+}
+
+.top-select ul li:hover{
+
+    color: white;
+}
+
+.container-song{
+    padding: 20px 20px;
+
+}
+
+.top-select h2{
+    color: white;
+}
+
+.grid-song{
+    display: flex;
+    gap: 20px;
+}
+
+.card-song{
+    width: 20%;
+    position: relative;
+}
+
+.top-select h5{
+    padding: 5px;
+    text-align: center;
+}
+
+.top-select p{
+    text-align: center;
+}
+
+.fa-circle-play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 40px;
+    transform: translate(-50%, -120%);
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.3 );
+    color: white;
+}
+
+.card-song:hover{
+    .fa-circle-play{
+        z-index: 2;
+    }
+}
+
+.john-doe h3,
+.famus h3{
+    color: lightgray;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    font-size: 12px;
+}
+
+.circle{
+    border-radius: 50%;
 }
