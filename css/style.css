@@ -285,11 +285,19 @@ hr{
 
 .container-inplay{
     width: 95%;
-    margin: 0;
-    box-sizing: border-box;
+    margin: 0 auto;
 }
 
 .row-inplay{
     display: flex;
-    
 }
+
+.external{
+    width: 20%;
+}
+
+.internal{
+    width: 60%;
+}
+
+
