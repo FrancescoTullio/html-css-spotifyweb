@@ -180,93 +180,93 @@ h5 {
     flex-wrap: wrap;
 }
 
-hr{
+hr {
     border: 1px solid white;
     width: 100%;
 
 }
 
-.nav-footer{
+.nav-footer {
     padding: 10px 0;
 }
 
-.fa-user{
+.fa-user {
     padding: 3px 3px;
     background-color: lightgray;
     border-radius: 50%;
     color: white;
 }
 
-.grow{
+.grow {
     height: 55%;
 }
 
-.container-list ul{
+.container-list ul {
     overflow: auto;
     height: 100%;
 }
 
 /**song**/
 
-.top-select ul{
+.top-select ul {
     display: flex;
     justify-content: center;
     gap: 20px;
     font-size: 13px;
 }
 
-.top-select ul li:hover{
+.top-select ul li:hover {
 
     color: white;
 }
 
-.container-song{
+.container-song {
     padding: 20px 20px;
 
 }
 
-.top-select h2{
+.top-select h2 {
     color: white;
 }
 
-.grid-song{
+.grid-song {
     display: flex;
     gap: 20px;
 }
 
-.card-song{
+.card-song {
     width: 15%;
     position: relative;
 }
 
-.top-select h5{
+.top-select h5 {
     padding: 5px;
     text-align: center;
 }
 
-.top-select p{
+.top-select p {
     text-align: center;
 }
 
-.fa-circle-play{
+.card-song .fa-circle-play {
     position: absolute;
     top: 50%;
     left: 50%;
     font-size: 40px;
     transform: translate(-50%, -120%);
     z-index: -1;
-    background-color: rgba(0, 0, 0, 0.3 );
+    background-color: rgba(0, 0, 0, 0.3);
     color: white;
 }
 
-.card-song:hover{
-    .fa-circle-play{
+.card-song:hover {
+    .fa-circle-play {
         z-index: 2;
     }
 }
 
 .john-doe h3,
-.famus h3{
+.famus h3 {
     color: lightgray;
     text-align: left;
     padding-top: 10px;
@@ -274,7 +274,7 @@ hr{
     font-size: 12px;
 }
 
-.circle{
+.circle {
     border-radius: 50%;
 }
 
@@ -283,21 +283,132 @@ hr{
 
 /**paypart**/
 
-.container-inplay{
+.container-inplay {
     width: 95%;
     margin: 0 auto;
+    height: 100%;
+    justify-content: center;
 }
 
-.row-inplay{
+.row-inplay {
     display: flex;
 }
 
-.external{
+.wrap {
+    flex-wrap: wrap;
+}
+
+.external {
     width: 20%;
 }
 
-.internal{
+.internal {
     width: 60%;
 }
 
+
+
+/**left**/
+.internal h3,
+.internal h5 {
+    font-size: 10px;
+    padding: 0 10px;
+}
+
+.internal h3 {
+    color: white;
+}
+
+.internal h5 {
+    color: lightgray;
+}
+
+.fa-heart:hover,
+.fa-folder:hover {
+    color: white;
+}
+
+.fa-heart {
+    padding: 0 15px;
+}
+
+.comand {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+
+/**center**/
+.comand .fa-shuffle:hover,
+.comand .fa-backward-step:hover,
+.comand .fa-circle-play:hover,
+.comand .fa-forward-step:hover,
+.comand .fa-rotate-right:hover{
+    color: white;
+}
+
+.
+
+.comand .fa-circle-play{
+    font-size: 18px;
+}
+
+
+
+
+
+
+.bar {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+
+.bar p{
+    color: white;
+    font-size: 10px;
+}
+
+.start{
+    text-align: right;
+}
+
+.finish{
+    text-align: left;
+}
+
+.lisened{
+    background-color: white;
+    width: 20%;
+    height: 3px;
+    align-self: center;
+}
+
+.not-lis{
+    background-color: grey;
+    width: 80%;
+    height: 3px;
+    align-self: center;
+}
+
+.cursor{
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    top: -20%;
+    left: 20%;
+}
+
+.bar .internal{
+    position: relative;
+}
 
