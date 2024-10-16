@@ -235,7 +235,7 @@ hr{
 }
 
 .card-song{
-    width: 20%;
+    width: 15%;
     position: relative;
 }
 
@@ -276,4 +276,20 @@ hr{
 
 .circle{
     border-radius: 50%;
+}
+
+
+
+
+/**paypart**/
+
+.container-inplay{
+    width: 95%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row-inplay{
+    display: flex;
+    
 }
