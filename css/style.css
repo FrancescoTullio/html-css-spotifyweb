@@ -194,3 +194,8 @@ hr{
 .grow{
     height: 55%;
 }
+
+.container-list ul{
+    overflow: auto;
+    height: 100%;
+}
