@@ -62,11 +62,13 @@ a {
 
 .container-list {
     padding: 0 15px;
+    width: 100%;
 }
 
 
 .container-nav {
     padding: 15px 15px;
+    width: 100%;
 }
 
 
@@ -167,9 +169,9 @@ h5 {
 }
 
 .row {
-    display: row;
-    align-items: flex-end;
+    display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 hr{
@@ -187,4 +189,8 @@ hr{
     background-color: lightgray;
     border-radius: 50%;
     color: white;
+}
+
+.grow{
+    height: 55%;
 }

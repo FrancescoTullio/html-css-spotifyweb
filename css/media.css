@@ -40,4 +40,9 @@
     .main-nav ul{
         padding-top: 5px;
     }
+
+    .row{
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
