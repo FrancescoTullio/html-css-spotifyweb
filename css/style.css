@@ -481,3 +481,38 @@ hr {
 fa-volume-high:hover {
     color: white;
 }
+
+
+
+
+
+
+/**speudo elementi bonus**/
+.green-bottom{
+    height: 3px;
+    width: 40px;
+    background-color: green;
+    position: absolute;
+    bottom: -3px;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.relative{
+    position: relative;
+}
+
+
+.home{
+    position:relative;
+}
+
+.green-left{
+    background-color: green;
+    width: 3px;
+    height: 28px;
+    position: absolute;
+    top: 0;
+    left: -15px;
+
+}
