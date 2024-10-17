@@ -362,7 +362,9 @@ hr {
     color: white;
 }
 
-.
+.comand .fa-circle-play:hover{
+    transform: scale(1.1);
+}
 
 .comand .fa-circle-play{
     font-size: 18px;
@@ -416,9 +418,18 @@ hr {
     position: absolute;
     top: -20%;
     left: 20%;
+    z-index: -1;
 }
 
-.bar .internal{
+.riproduzione{
+    width: 100%;
+    display: flex;
     position: relative;
+}
+
+.riproduzione:hover{
+    .cursor{
+        z-index: 2;
+    }
 }
 
