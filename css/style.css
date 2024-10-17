@@ -362,6 +362,7 @@ hr {
     color: white;
 }
 
+
 .comand .fa-circle-play:hover{
     transform: scale(1.1);
 }
@@ -431,5 +432,32 @@ hr {
     .cursor{
         z-index: 2;
     }
+}
+
+/**volume**/
+.row-sound{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 10px;
+}
+
+
+.icon{
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.sound{
+    width: 70%;
+    display: flex;
+}
+
+.fa-list:hover,
+.fa-display:hover,
+fa-volume-high:hover{
+    color: white;
 }
 
