@@ -239,7 +239,7 @@ hr {
     width: 15%;
 }
 
-.copertina{
+.copertina {
     position: relative;
 }
 
@@ -270,9 +270,9 @@ hr {
 }
 
 .copertina:hover {
-        .fa-circle-play {
-            z-index: 2;
-        }
+    .fa-circle-play {
+        z-index: 2;
+    }
 }
 
 .john-doe h3,
@@ -319,17 +319,38 @@ hr {
 
 
 /**left**/
-.internal h3,
-.internal h5 {
-    font-size: 10px;
-    padding: 0 10px;
+
+.row-left{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 10px;
 }
 
-.internal h3 {
+.row-left img{
+    width: 15%;
+    display: block;
+}
+
+.row-left h5{
+    padding: 0;
+}
+
+
+
+
+
+
+.external h3,
+.external h5 {
+    font-size: 12px;
+}
+
+.external h3 {
     color: white;
 }
 
-.internal h5 {
+.external h5 {
     color: lightgray;
 }
 
@@ -358,16 +379,16 @@ hr {
 .comand .fa-backward-step:hover,
 .comand .fa-circle-play:hover,
 .comand .fa-forward-step:hover,
-.comand .fa-rotate-right:hover{
+.comand .fa-rotate-right:hover {
     color: white;
 }
 
 
-.comand .fa-circle-play:hover{
+.comand .fa-circle-play:hover {
     transform: scale(1.1);
 }
 
-.comand .fa-circle-play{
+.comand .fa-circle-play {
     font-size: 18px;
 }
 
@@ -384,34 +405,34 @@ hr {
 }
 
 
-.bar p{
+.bar p {
     color: white;
     font-size: 10px;
 }
 
-.start{
+.start {
     text-align: right;
 }
 
-.finish{
+.finish {
     text-align: left;
 }
 
-.lisened{
+.lisened {
     background-color: white;
     width: 20%;
     height: 3px;
     align-self: center;
 }
 
-.not-lis{
+.not-lis {
     background-color: grey;
     width: 80%;
     height: 3px;
     align-self: center;
 }
 
-.cursor{
+.cursor {
     width: 15px;
     height: 15px;
     background-color: green;
@@ -422,20 +443,20 @@ hr {
     z-index: -1;
 }
 
-.riproduzione{
+.riproduzione {
     width: 100%;
     display: flex;
     position: relative;
 }
 
-.riproduzione:hover{
-    .cursor{
+.riproduzione:hover {
+    .cursor {
         z-index: 2;
     }
 }
 
-/**volume**/
-.row-sound{
+/**destra**/
+.row-sound {
     display: flex;
     align-items: center;
     height: 100%;
@@ -443,21 +464,20 @@ hr {
 }
 
 
-.icon{
+.icon {
     width: 25%;
     display: flex;
     justify-content: flex-end;
     gap: 15px;
 }
 
-.sound{
+.sound {
     width: 70%;
     display: flex;
 }
 
 .fa-list:hover,
 .fa-display:hover,
-fa-volume-high:hover{
+fa-volume-high:hover {
     color: white;
 }
-

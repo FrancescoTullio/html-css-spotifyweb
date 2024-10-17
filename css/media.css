@@ -17,6 +17,17 @@
         width: 20%;
     }
 
+
+    .external .fa-heart,
+    .external .fa-solder{
+        width: 100%;
+        padding: 0;
+    }
+
+
+    .icon {
+        gap: 10px;
+    }
     
     
 }
@@ -37,7 +48,14 @@
         width: calc((100% - 10px) / 2) ;
     }
 
+    .comand {
+        
+        gap: 5px;
+    }
     
+
+    .icon {
+        gap: 5px;
     
 }
 
