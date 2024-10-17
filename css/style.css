@@ -97,6 +97,7 @@ a {
 .header-song .btn:hover {
     color: white;
     border-color: white;
+    transform: scale(1.1);
 }
 
 /**nav**/
@@ -236,6 +237,9 @@ hr {
 
 .card-song {
     width: 15%;
+}
+
+.copertina{
     position: relative;
 }
 
@@ -253,7 +257,7 @@ hr {
     top: 50%;
     left: 50%;
     font-size: 40px;
-    transform: translate(-50%, -120%);
+    transform: translate(-50%, -50%);
     z-index: -1;
     background-color: rgba(0, 0, 0, 0.3);
     color: white;
@@ -263,6 +267,12 @@ hr {
     .fa-circle-play {
         z-index: 2;
     }
+}
+
+.copertina:hover {
+        .fa-circle-play {
+            z-index: 2;
+        }
 }
 
 .john-doe h3,
